@@ -3,7 +3,7 @@
   <a href="https://github.com/leonardomso/react-bolt"><img src="http://oyde.info/wp-content/uploads/2018/11/website-design-icon-web-icon-designing-service-dynamic-web-page-design-dynamic-website-printable.jpg" alt="WebSiteClone" width=256"></a>
 <br>
 <br>
-A copy of IBANEZ Guitars web site style.
+A copy of Ibanez Guitars website style.
 </h1>
     
 <p align="center">
@@ -26,8 +26,9 @@ This project features the following tools:
 
 - ⚛ **React** — 16.9.0
 - 🛠 **Babel** — ES6 syntax, React/Recommended config
-- 🚀 **Webpack**  — Work in a modular approach
+- 🚀 **Webpack**  — 4.40.2 Work in a modular approach
 - 💅 **CSS** — Styled Components
+- 💖 **Lint** — ESlint
 
 ## Installation
 1. Clone this repo using `https://github.com/sev17238/Project1_WebPage.git`
@@ -38,6 +39,12 @@ This project features the following tools:
 Teacher/Instructor: Dennis Moritz Aldana.
 
 - **Setting Up REACT, WEBPACK, BABEL** `https://scotch.io/tutorials/setup-a-react-environment-using-webpack-and-babel`
+- **How to use ESLint in Webpack** `https://www.robinwieruch.de/webpack-eslint`
+
+  
+**Others**
+- `https://github.com/yannickcr/eslint-plugin-react`
+- `https://medium.com/@tomsoir/adding-eslint-to-react-project-quick-guid-19d509988b42`
 
 ## License
 No license.
