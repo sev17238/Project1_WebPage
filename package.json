@@ -1,0 +1,36 @@
+{
+  "name": "Project1_WebPage",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">\r <br>\r   <a href=\"https://github.com/leonardomso/react-bolt\"><img src=\"http://oyde.info/wp-content/uploads/2018/11/website-design-icon-web-icon-designing-service-dynamic-web-page-design-dynamic-website-printable.jpg\" alt=\"WebSiteClone\" width=256\"></a>\r <br>\r <br>\r A copy of \" \" web site style.\r </h1>",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sev17238/Project1_WebPage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sev17238/Project1_WebPage/issues"
+  },
+  "homepage": "https://github.com/sev17238/Project1_WebPage#readme",
+  "dependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "path": "^0.12.7",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "webpack": "^4.40.2",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack-cli": "^3.3.8"
+  }
+}
