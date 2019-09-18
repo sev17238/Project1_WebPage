@@ -26,7 +26,7 @@ This project features the following tools:
 
 - ⚛ **React** — 16.9.0
 - 🛠 **Babel** — ES6 syntax, React/Recommended config
-- 🚀 **Webpack**  — 4.40.2 Work in a modular approach
+- 🚀 **Webpack**  — 4.40.2 - Work in a modular approach
 - 💅 **CSS** — Styled Components
 - 💖 **Lint** — ESlint
 
@@ -40,7 +40,7 @@ Teacher/Instructor: Dennis Moritz Aldana.
 
 - **Setting Up REACT, WEBPACK, BABEL** `https://scotch.io/tutorials/setup-a-react-environment-using-webpack-and-babel`
 - **How to use ESLint in Webpack** `https://www.robinwieruch.de/webpack-eslint`
-
+- **How to configure SCSS modules for Webpack** `https://developerhandbook.com/webpack/how-to-configure-scss-modules-for-webpack/`
   
 **Others**
 - `https://github.com/yannickcr/eslint-plugin-react`
