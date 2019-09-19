@@ -15,7 +15,8 @@
           "jsx": true
         }
     },
-    "extends": ["eslint:recommended",
+    "extends": [/*"airbnb",*/
+    "eslint:recommended",
     "plugin:react/recommended"],
     "plugins": [
         "babel",
@@ -48,5 +49,6 @@
         "indent": ["error", 4],
         "quotes": [ "error", "single" ],
         "semi": [ "error", "always"]
+        
     }    
   }

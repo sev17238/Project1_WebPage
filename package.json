@@ -6,7 +6,6 @@
   "scripts": {
     "start": "webpack-dev-server",
     "lint": "./node_modules/.bin/eslint src",
-    "lint-fixup": "./node_modules/.bin/eslint src --ext .js,.jsx --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,6 +20,10 @@
   },
   "homepage": "https://github.com/sev17238/Project1_WebPage#readme",
   "dependencies": {
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react-hooks": "^1.7.0",
     "html-webpack-plugin": "^3.2.0",
     "path": "^0.12.7",
     "react": "^16.9.0",
