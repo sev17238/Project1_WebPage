@@ -22,7 +22,7 @@ module.exports = {
   //modules
   module: {
     rules: [
-      { 
+      { //css files will be evaluated by style and css loaders when compiling the project
         test: /\.css$/,
         use: [
           { loader: "style-loader" },
@@ -30,15 +30,12 @@ module.exports = {
         ]
       },
       { //js and jsx files will be evaluated by babel and eslint loaders when compiling the project
-        test: /\.js$/,
+        test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         use: ["babel-loader","eslint-loader"]
+        
       }, {
-        test: /\.jsx?$/,
-        exclude: /node_modules/,
-        use: ["babel-loader","eslint-loader"]
-      }, {
-      //FOR SASS IMPLEMENTATION--------------------
+      //FOR SASS IMPLEMENTATION--------------------------------------------------------------
         test: /\.module\.s(a|c)ss$/,
         loader: [
           isDevelopment ? 'style-loader' : MiniCssExtractPlugin.loader,
@@ -71,11 +68,11 @@ module.exports = {
           }
         ]
       }
-      //---------------------------------------------
+      //------------------------------------------------------------------------------------
     ]  
   },
   resolve: {
-    extensions: ['.js', '.jsx', '.scss']
+    extensions: ['.js', '.jsx', '.scss'] //doesn't have to be added on imports
   },
   //webpack plugins
   plugins: [

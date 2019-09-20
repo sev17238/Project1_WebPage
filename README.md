@@ -29,6 +29,7 @@ This project features the following tools:
 - 🚀 **Webpack**  — 4.40.2 - Work in a modular approach
 - 💅 **CSS** — Styled Components
 - 💖 **Lint** — ESlint
+- :camera: **Image loaders** — 6.0.0 - Standardize your images 
 
 ## Installation
 1. Clone this repo using `https://github.com/sev17238/Project1_WebPage.git`
@@ -39,12 +40,14 @@ This project features the following tools:
 Teacher/Instructor: Dennis Moritz Aldana.
 
 - **Setting Up REACT, WEBPACK, BABEL** `https://scotch.io/tutorials/setup-a-react-environment-using-webpack-and-babel`
+- **How to set up React, webpack, and Babel 7 from scratch (2019)** `https://www.valentinog.com/blog/babel/`
 - **How to use ESLint in Webpack** `https://www.robinwieruch.de/webpack-eslint`
 - **How to configure SCSS modules for Webpack** `https://developerhandbook.com/webpack/how-to-configure-scss-modules-for-webpack/`
   
 **Others**
 - `https://github.com/yannickcr/eslint-plugin-react`
 - `https://medium.com/@tomsoir/adding-eslint-to-react-project-quick-guid-19d509988b42`
+- `https://www.npmjs.com/`
 
 ## License
 No license.
