@@ -5,7 +5,7 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/App';
+import Container from './components/Container';
 import './css/global';
 
-ReactDOM.render( <App/>, document.getElementById('root') );
+ReactDOM.render( <Container/>, document.getElementById('root') );

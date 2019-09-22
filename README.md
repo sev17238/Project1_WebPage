@@ -1,6 +1,6 @@
 <h1 align="center">
 <br>
-  <a href="https://github.com/leonardomso/react-bolt"><img src="http://oyde.info/wp-content/uploads/2018/11/website-design-icon-web-icon-designing-service-dynamic-web-page-design-dynamic-website-printable.jpg" alt="WebSiteClone" width=256"></a>
+  <img src="http://oyde.info/wp-content/uploads/2018/11/website-design-icon-web-icon-designing-service-dynamic-web-page-design-dynamic-website-printable.jpg" alt="WebSiteClone" width="172"> <img src='https://cdn4.iconfinder.com/data/icons/ios7-essence/22/add_plus-512.png' lt="Guitar" width="172"> <img src="https://assets.webiconspng.com/uploads/2017/09/Electric-Guitar-PNG-Image-52854.png" alt="Guitar" width="172">
 <br>
 <br>
 A copy of Ibanez Guitars website style.
@@ -13,7 +13,7 @@ A copy of Ibanez Guitars website style.
   </a>
 </p>
 
-<p align="center">College project.</p>
+<p align="center">College project. :mortar_board:</p>
 
 <hr />
 
@@ -43,11 +43,11 @@ Teacher/Instructor: Dennis Moritz Aldana.
 - **How to set up React, webpack, and Babel 7 from scratch (2019)** `https://www.valentinog.com/blog/babel/`
 - **How to use ESLint in Webpack** `https://www.robinwieruch.de/webpack-eslint`
 - **How to configure SCSS modules for Webpack** `https://developerhandbook.com/webpack/how-to-configure-scss-modules-for-webpack/`
+- **image-webpack-loader**`https://www.npmjs.com/package/image-webpack-loader`
   
 **Others**
 - `https://github.com/yannickcr/eslint-plugin-react`
 - `https://medium.com/@tomsoir/adding-eslint-to-react-project-quick-guid-19d509988b42`
-- `https://www.npmjs.com/`
 
 ## License
 No license.

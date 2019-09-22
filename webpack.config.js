@@ -32,9 +32,22 @@ module.exports = {
       { //js and jsx files will be evaluated by babel and eslint loaders when compiling the project
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
-        use: ["babel-loader","eslint-loader"]
-        
-      }, {
+        use: ["babel-loader","eslint-loader"]        
+      }, 
+      { //Image Loaders--------------------------------------------------------------
+        test: /\.(gif|png|jpe?g|svg)$/i,
+        use: [
+          'file-loader',
+          {
+            loader: 'image-webpack-loader',
+            options: {
+              bypassOnDebug: true, // webpack@1.x
+              disable: true, // webpack@2.x and newer
+            },
+          },
+        ],
+      },
+      {
       //FOR SASS IMPLEMENTATION--------------------------------------------------------------
         test: /\.module\.s(a|c)ss$/,
         loader: [

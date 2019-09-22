@@ -1,0 +1,234 @@
+
+.header {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:1000
+}
+
+.header-content {
+    position:relative;
+    width:100%;
+    height:104px;
+    border-bottom:1px solid #777a7b;
+    //background-color:rgba(0,0,0,.8);
+    color:#fff;
+    z-index:999;
+    transition:.4s
+}
+
+.idx .header-content {
+    background-color:transparent
+}
+.idx .header-content.bgColor {
+    background-color:rgba(0,0,0,.8)
+}
+
+.header-content-logo {
+    display:block;
+    position:absolute;
+    top:50%;
+    left:50%;
+    -ms-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%);
+    width:166px
+}
+//CONTENT LEFT-------------------------------------------------------
+.header-content-left {
+    display:table;
+    padding-top:30px
+}
+.header-content-left-in {
+    display:table-cell;
+    padding-left:40px;
+    vertical-align:middle
+}
+//Menu and menu buttons-----------------
+.header-menu {
+    position:relative;
+    width:40px;
+    height:40px;
+    z-index:2;
+    transition:all .3s ease;
+    cursor:pointer
+}
+.header-menu-button {
+    position:absolute;
+    top:0;
+    left:50%;
+    -ms-transform:translateX(-50%);
+    transform:translateX(-50%);
+    width:27px;
+    height:18px;
+    outline:0;
+    -webkit-tap-highlight-color:transparent;
+    z-index:10
+}
+.header-menu-button:before, .header-menu-button:after {
+    content:""
+}
+.header-menu-button:before {
+    margin-bottom:6px
+}
+.header-menu-button:after {
+    margin-top:6px
+}
+.header-menu-button:before, .header-menu-button-inner, .header-menu-button:after {
+    position:relative;
+    top:0;
+    display:block;
+    width:100%;
+    height:2px;
+    background-color:#fff;
+    transition:all .3s ease;
+    -ms-transform:rotate(0deg);
+    transform:rotate(0deg);
+    opacity:1;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
+}
+.header-menu-button.is-visible {
+    height:28px
+    }
+.header-menu-button.is-visible:before {
+    top:2px;
+    left:-5px;
+    -ms-transform:rotate(-45deg);
+    transform:rotate(-45deg);
+    width:70%
+}
+.header-menu-button.is-visible:after {
+    top:-2px;
+    left:-5px;
+    -ms-transform:rotate(45deg);
+    transform:rotate(45deg);
+    width:70%
+}
+.header-menu-button-text {
+    font-family:Raleway,sans-serif;
+    font-size:10px;
+    line-height:1;
+    position:absolute;
+    bottom:0;
+    left:50%;
+    -ms-transform:translateX(-50%);
+    transform:translateX(-50%);
+    width:100%;
+    text-align:center
+}
+
+//---------------------------------------------------------------
+
+//CONTENT RIGHT--------------------------------------------------------
+.pos_relative {
+    position: relative;
+}
+
+.header-content-right {
+    position:absolute;
+    top:0;
+    right:0
+}
+.header-content-right-overlay {
+    display:none
+}
+.header-content-right-wrap {
+    display:table;
+    padding-top:40px
+}
+.header-content-right-in {
+    display:table-cell;
+    padding-right:5px;
+    vertical-align:middle
+}
+.header-content-right-in-text {
+    font-family:Raleway,sans-serif;
+    font-size:14px;
+    line-height:1;
+    position: absolute;
+    top: 30px;
+    left:-25%;
+    -ms-transform:translateX(-50%);
+    transform:translateX(-50%);
+    width:100%;
+    text-align: center;
+}
+.header-content-right-in-icon {
+    position:relative;
+    width:46px;
+    height:26px;
+    padding-right:5px
+}
+.header-content-right-in-icon i:before {
+    position:absolute;
+    top:0;
+    left:0;
+    font-size:26px;
+    width:26px;
+    height:26px;
+    line-height:26px;
+    color:#fff
+}
+.header-content-right-in-icon img {
+    position:absolute;
+    top:0;
+    left:0;
+    width:26px;
+    height:26px
+}
+.header-content-right-sp {
+    display:none
+}
+// Search -----------------------------
+.header-search {
+    position:relative;
+    width:40px;
+    height:40px;
+
+    cursor:pointer
+}
+.header-search i:before {
+    position:absolute;
+    top:0;
+    left:50%;
+    -ms-transform:translateX(-50%);
+    transform:translateX(-50%);
+    font-size:24px;
+    width:24px;
+    height:24px;
+    transition:.4s
+}
+.header-search.is-visible i:before {
+    content:'\EA21'
+}
+.header-search-text {
+    font-family:Raleway,sans-serif;
+    font-size:10px;
+    line-height:1;
+    position:absolute;
+    bottom:0;
+    left:50%;
+    -ms-transform:translateX(-50%);
+    transform:translateX(-50%);
+    width:100%;
+    text-align:center
+}
+.header-searchBlock {
+    position:relative;
+    width:100%;
+    height:100vh;
+    background:rgba(0,0,0,.7)
+}
+.header-searchBlock .mod-siteSearch-box {
+    position:absolute;
+    top:50%;
+    left:50%;
+    -ms-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%)
+}
+// ---------------------------------------
+//----------------------------------------------------------
+
+
+
+
