@@ -3,6 +3,7 @@
 */
 import React from 'react';
 import '../../css/Header';
+import '../../css/global';
 const faceicon = require('../../images/icons/facebook-icon.png');
 const twittericon = require('../../images/icons/twitter-icon.png');
 const instagramicon = require('../../images/icons/instagram-icon.png');

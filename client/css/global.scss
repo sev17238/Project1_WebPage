@@ -1,10 +1,15 @@
- 
+/*html {
+  font-size:62.5%;
+  overflow-y:visible
+ }*/
+
 body{
-    background-color: rgba(167, 167, 167, 0.8);
+    //background-color: rgba(167, 167, 167, 0.8);
   
     font-size: 1.4rem;
     line-height: 1.8;
     font-family: Open Sans,sans-serif;
+    margin: 0;
   }
   
   
@@ -31,4 +36,16 @@ body{
 
 .mt30 {
   margin-top:30px
+ }
+
+ .pos_relative {
+  position: relative;
+}
+
+img {
+  vertical-align:top
+ }
+ img,
+ iframe {
+  max-width:100%
  }

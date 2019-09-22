@@ -18,7 +18,9 @@ A copy of Ibanez Guitars website style.
 <hr />
 
 ## Description
-This project is part of 'Technologies and Web Systems' course from Universidad del Valle de Guatemala. The objective of this project is to make a copy of the style of a well built website on the web.
+This project is part of 'Technologies and Web Systems' course from Universidad del Valle de Guatemala. The objective of this project is to make a copy of the style of a well built website on the web. 
+
+Check out Ibanez website: `https://www.ibanez.com/na/` it's very cool!
 
 ## Table of contents
 
