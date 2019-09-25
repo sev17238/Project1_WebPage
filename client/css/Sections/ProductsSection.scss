@@ -1,0 +1,58 @@
+.idx-product {
+    position: relative;
+    background: #ccc;
+    padding-bottom: 40px;
+    z-index: 3;
+}
+
+.mod-auto {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 60px;
+    padding-left: 60px;
+    //max-width: 1600px;
+    width: 100%;
+}
+
+.mod-head {
+    position: relative;
+    display: block;
+    padding-top: 30px;
+    font-family: Open Sans,sans-serif;
+    font-size: 42px;
+    font-size: 4.2rem;
+    color: #555;
+    overflow: hidden;
+}
+.idx-product-head {
+    padding-right: 40px;
+}
+
+.idx-product-tabs-wrap {
+    position: relative;
+    height: 25.92593vw;
+}
+
+.idx-product-tabs {
+    display: inline-block;
+    padding-bottom: 40px;
+}
+
+//Inlinte list with product names
+.idx-product-tabs-item .is-active {
+    cursor: default;
+    color: #00a7cb;
+}
+
+.idx-product-tabs-item:first-child {
+    border-left: none;
+}
+.idx-product-tabs-item {
+    display:inline-block;
+    padding-left:10px;
+    padding-right:10px;
+    border-right: 1px solid #000;
+    color:#000;
+    cursor:pointer
+   }
+// ------------------------------

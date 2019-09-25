@@ -3,17 +3,19 @@
 */
 import React from 'react';
 import '../../css/Footer';
-import SlideIntroSection from '../../components/main/SlideIntroSection';
-import LittleImagesSection from '../../components/main/LittleImagesSection';
-import LatestNewsSection from '../../components/main/LatestNewsSection'; 
+import SlideIntroSection from './SlideIntroSection';
+import LittleImagesSection from './LittleImagesSection';
+import LatestNewsSection from './LatestNewsSection'; 
+import ProductsSection from './ProductsSection'; 
 
 export default class Main extends React.Component {
     render() {
         return (
-            <main className='clearfix' style={{zoom: 1}}>
+            <main style={{zoom: 1}}>
                 <SlideIntroSection/>
                 <LittleImagesSection/>
                 <LatestNewsSection/>
+                <ProductsSection/>
             </main>
         );
     }
