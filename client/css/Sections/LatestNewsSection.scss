@@ -1,0 +1,132 @@
+.mod-bgBlock {
+    position:relative;
+    display:block;
+    width:100%;
+    z-index:2
+   }
+
+.color-black {
+    background-color: #000;
+}
+
+.mod-bgBlock-content {
+    position:relative;
+    z-index:1
+}
+.mod-auto {
+    max-width: 86%;
+    padding: 0;
+}
+
+.mod-head {
+    position:relative;
+    display:block;
+    padding-top:30px;
+    font-family:Open Sans,sans-serif;
+    font-size:42px;
+    font-size:4.2rem;
+    color:#555;
+    overflow:hidden;
+    margin-top: 0;
+}
+
+.color_white {
+    color: #fff;
+}
+
+.mod-spacer {
+    margin-top: 30px;
+    overflow:hidden;
+    position:relative;
+    //float:left;
+}
+
+.mod-more {
+    position: relative;
+    border-top: 1px solid #555;
+    text-align: center;
+    z-index: 1;
+}
+.mod-spacer {
+    margin-top: 30px;
+}
+
+//list ------ References: https://matthewjamestaylor.com/css-centred-menus
+.mod-spacer .list-news{
+    clear:left;
+    float:left;
+    list-style:none;
+    margin:0;
+    padding:0;
+    position:relative;
+    left:50%;
+    text-align:center;
+}
+
+.list-news{
+    display: inline-block;
+}
+
+.mod-spacer .list-news .list-item{
+    display:block;
+    float:left;
+    list-style:none;
+    margin:0;
+    position:relative;
+    right:50%;
+}
+
+.list-item{
+    padding: 0.1em;
+    width: 24%;
+}
+
+//--------------------------------------------------------------------
+
+.mod-auto-more {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.mod-auto {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 60px;
+    padding-left: 60px;
+    width: 100%;
+}
+.mod-a {
+    display: block;
+    width: 100%;
+    outline: none;
+}
+.mod-more-text {
+    font-family: Open Sans,sans-serif;
+    font-size: 16px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #888;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-decoration: none;
+}
+
+
+.mod-bgBlock-bgBottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    max-height: 100%;
+}
+
+//LIst text -----
+.td_under {
+    text-decoration: underline;
+}
+.color_gray3 {
+    color: #888;
+}
+.p20 {
+    padding: 20px;
+}

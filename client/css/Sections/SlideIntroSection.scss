@@ -28,7 +28,7 @@
     float:left;
     height:100%;
     min-height:1px;
-    display:none
+    //display:none
 }
 .slick-slide img {
     display:block
@@ -169,15 +169,7 @@
     display:inline-block
 }
 
-@media screen {
-    [hidden~=screen] {
-     display:inherit
-    }
-    [hidden~=screen]:not(:active):not(:focus):not(:target) {
-     position:absolute!important;
-     clip:rect(0 0 0 0)!important
-    }
-   }
+
 @media screen and (max-width:64em) {
     [data-view*=pc] {
         display:none
