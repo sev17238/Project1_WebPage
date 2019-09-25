@@ -20,7 +20,7 @@ export default class Header extends React.Component {
                         <HeaderContentLeft/>
                     </div>
                     <a className='header-content-logo' href='#'>
-                        <img src={logo} className='width-u-100' alt='logo'/>
+                        <img src={logo} className='width-u-100 ibanez-logo' alt='logo'/>
                     </a>
                     <div className='header-content-right'>
                         <HeaderContentRight/>

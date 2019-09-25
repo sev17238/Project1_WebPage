@@ -19,7 +19,7 @@ export default class Footer extends React.Component {
                 </a>
                 <div className='footer-content opacity'>
                     <a href="#" className='footer-logo'>
-                        <img src={logo} alt="logo" className='width-u-100'/>
+                        <img src={logo} alt="logo" className='width-u-100 ibanez-logo'/>
                     </a>
                     <div className='mt30'>
                         <a href="#">CHANGE YOUR REGION</a>

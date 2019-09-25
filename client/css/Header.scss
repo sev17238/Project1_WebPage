@@ -153,7 +153,7 @@
     position:relative;
     width:46px;
     height:26px;
-    padding-right:5px
+    padding-right:1px
 }
 .header-content-right-in-icon i:before {
     position:absolute;
@@ -172,6 +172,13 @@
     width:26px;
     height:26px
 }
+.header-content-right-in-icon:hover{
+    opacity: .55;
+}
+.ibanez-logo:hover{
+    opacity: .55;
+}
+
 .header-content-right-sp {
     display:none
 }

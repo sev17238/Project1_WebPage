@@ -24,7 +24,6 @@
 }
 .footer-pagetop:hover {
     opacity:.55;
-    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=55)"
 }
 .footer-pagetop .icon-arrow_down {
     font-size:35px;
@@ -36,9 +35,10 @@
 }
 .footer-pagetop span {
     display:block;
-    font-size:14px;
-    font-size:0.8rem;
+    font-size:12px;
+    font-size:1.2rem;
     color:#888;
+    text-decoration: none;
 }
 .footer-content {
     position:relative;
@@ -46,8 +46,8 @@
     text-align:center
 }
 .footer-content a {
-    font-size:14px;
-    font-size:0.8rem;
+    font-size:12px;
+    font-size:1.2rem;
     color:#888;
     text-decoration:underline
 }
@@ -57,7 +57,8 @@
 }
 .footer-links {
     display:block;
-    margin-top:60px
+    margin-top:60px;
+    padding: 0
 }
 .footer-links-in {
     display:inline-block;
@@ -70,7 +71,11 @@
 .footer-copy {
     margin-top:60px;
     font-size:10px;
-    font-size:0.6rem;
+    font-size:1rem;
     font-family:Open Sans,sans-serif;
     color:#888
+}
+
+.ibanez-logo:hover{
+    opacity:.55;
 }

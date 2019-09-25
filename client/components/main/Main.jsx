@@ -4,12 +4,16 @@
 import React from 'react';
 import '../../css/Footer';
 import SlideIntroSection from '../../components/main/SlideIntroSection';
+import LittleImagesSection from '../../components/main/LittleImagesSection';
+// import LatestNewsSection from '../../components/main/LatestNewsSection'; <LatestNewsSection/>
 
 export default class Main extends React.Component {
     render() {
         return (
             <main className='clearfix' style={{zoom: 1}}>
                 <SlideIntroSection/>
+                <LittleImagesSection/>
+                
             </main>
         );
     }

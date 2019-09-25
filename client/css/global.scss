@@ -1,7 +1,7 @@
-/*html {
+html {
   font-size:62.5%;
   overflow-y:visible
- }*/
+ }
 
 body{
     //background-color: rgba(167, 167, 167, 0.8);
@@ -27,12 +27,12 @@ body{
     -moz-osx-font-smoothing:grayscale;
 }
 
-.icon-zoom:before {
+/*.icon-zoom:before {
 
     //content: "\EA06"
-    /*background-image: url('../images/icons/search.png');
-    background-size: cover;*/
-}
+    background-image: url('../images/icons/search.png');
+    background-size: cover;
+}*/
 
 .mt30 {
   margin-top:30px
@@ -49,3 +49,12 @@ img {
  iframe {
   max-width:100%
  }
+
+ //FOR SECTIONS
+ .mod-block {
+  position: relative;
+  display: block;
+  width: 100%;
+  z-index: 2;
+}
+//----------------

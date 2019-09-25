@@ -16,9 +16,9 @@ export default class SlideIntroSection extends React.Component {
             <section className='mod-block idx-main'>
                 <div id='main-slide' className='slick-initialized slick-slider'>
                     <div className='slick-list draggable'>
-                        <div className='slick-track' style={{opacity:'1', width: '9432px', transform: 'translate3d(0px,0px,0px)'}}>
+                        <div className='slick-track' >
                             
-                            <div className='pos_relative slick-slide' style={{width: '1048px'}}>
+                            <div className='pos_relative slick-slide' >
                                 <h1 className='idx-main-title'>
                                     <span className='idx-main-title-top'></span>
                                     <span className='idx-main-title-middle'>
