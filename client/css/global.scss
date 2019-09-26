@@ -50,6 +50,27 @@ img {
   max-width:100%
  }
 
+ //INTERACTIBLES---------------------------------
+button, input, select, textarea {
+  outline: none;
+}
+
+button, input, select, textarea {
+  background-color: transparent;
+  border-style: none;
+  color: inherit;
+}
+
+button, input, optgroup, select, textarea {
+  font: inherit;
+}
+
+input {
+  border-radius: 0;
+}
+
+//-------------------------------------------------
+
  //FOR SECTIONS
  .mod-block {
   position: relative;

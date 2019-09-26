@@ -16,6 +16,7 @@ export default class Main extends React.Component {
                 <LittleImagesSection/>
                 <LatestNewsSection/>
                 <ProductsSection/>
+
             </main>
         );
     }
