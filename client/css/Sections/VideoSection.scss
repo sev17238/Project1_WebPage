@@ -108,6 +108,10 @@
     color: #888;
 }
 
+.viewtext:hover{
+    opacity: 0.7;
+}
+
 .playButton{ // idx-videos-youtube-block-btn
     position:absolute;
     top:50%;
@@ -118,3 +122,13 @@
     z-index:3;
     cursor:pointer
    }
+   
+.playButton:hover{
+    opacity: 0.7;
+}
+
+//For artist focus
+.artistimg:hover{
+    filter: brightness(60%);
+    cursor: pointer;
+}

@@ -9,22 +9,22 @@ export default class HeaderNav extends React.Component {
         return (            
             <ul className='header-nav opacity is-active'>
                 <li className='header-nav-in'>
-                    <a href="#">ELECTRIC GUITARS</a>
+                    <a className='anchorHover' href="#">ELECTRIC GUITARS</a>
                 </li>
                 <li className='header-nav-in'>
-                    <a href="#">BASSES</a>
+                    <a className='anchorHover' href="#">BASSES</a>
                 </li>
                 <li className='header-nav-in'>
-                    <a href="#">HOLLOW BODIES</a>
+                    <a className='anchorHover' href="#">HOLLOW BODIES</a>
                 </li>
                 <li className='header-nav-in'>
-                    <a href="#">ACOUSTICS</a>
+                    <a className='anchorHover' href="#">ACOUSTICS</a>
                 </li>
                 <li className='header-nav-in'>
-                    <a href="#">ELECTRONICS</a>
+                    <a className='anchorHover' href="#">ELECTRONICS</a>
                 </li>
                 <li className='header-nav-in'>
-                    <a href="#">ACCESSORIES</a>
+                    <a className='anchorHover' href="#">ACCESSORIES</a>
                 </li>
             </ul>            
         );

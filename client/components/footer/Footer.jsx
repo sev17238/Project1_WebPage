@@ -22,26 +22,26 @@ export default class Footer extends React.Component {
                         <img src={logo} alt="logo" className='width-u-100 ibanez-logo'/>
                     </a>
                     <div className='mt30'>
-                        <a href="#">CHANGE YOUR REGION</a>
+                        <a className='link-opacity' href="#">CHANGE YOUR REGION</a>
                     </div>
                     <ul className='footer-links'>
                         <li className='footer-links-in'>
-                            <a href="#" className='footer-links-a'>
+                            <a  href="#" className='footer-links-a link-opacity'>
                                 CONTACT
                             </a>
                         </li>
                         <li className='footer-links-in'>
-                            <a href="#" className='footer-links-a'>
+                            <a  href="#" className='footer-links-a link-opacity'>
                                 TERMS
                             </a>
                         </li>
                         <li className='footer-links-in'>
-                            <a href="#" className='footer-links-a'>
+                            <a  href="#" className='footer-links-a link-opacity'>
                                 PROP65
                             </a>
                         </li>
                         <li className='footer-links-in'>
-                            <a href="#" className='footer-links-a'>
+                            <a  href="#" className='footer-links-a link-opacity'>
                                 SITEMAP
                             </a>
                         </li>

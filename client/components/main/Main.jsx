@@ -9,6 +9,7 @@ import LatestNewsSection from './LatestNewsSection';
 import ProductsSection from './ProductsSection'; 
 import FeatureProductsSection from './FeatureProductsSection'; 
 import VideoSection from './VideoSection';
+import ArtistFocus from './ArtistFocus';
 
 export default class Main extends React.Component {
     render() {
@@ -20,6 +21,7 @@ export default class Main extends React.Component {
                 <ProductsSection/>
                 <FeatureProductsSection/>
                 <VideoSection/>
+                <ArtistFocus/>
             </main>
         );
     }

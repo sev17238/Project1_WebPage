@@ -23,25 +23,25 @@ export default class LatestNewsSection extends React.Component {
 
                             <li className='list-item'>
                                 <a className='list-item-af' href="#" tabIndex='0'>
-                                    <img src={NewArrival} alt="NewArrival"/>
+                                    <img className='lessOpacity' src={NewArrival} alt="NewArrival"/>
                                     <p className='p20 color_gray3 td_under'>Monthly New Arrival</p>
                                 </a>
                             </li>
                             <li className='list-item'>
                                 <a className='list-item-a' href="#" tabIndex='0'>
-                                    <img src={dumbPick} alt="dumbpick"/>
+                                    <img className='lessOpacity' src={dumbPick} alt="dumbpick"/>
                                     <p className='p20 color_gray3 td_under '>Ibanez and JTC Guitar Collaborate ON ``THE PLAYERS PICK`` </p>
                                 </a>
                             </li>
                             <li className='list-item'>
                                 <a className='list-item-a' href="#" tabIndex='0'>
-                                    <img src={PaulG} alt="paulgilbert"/>
+                                    <img className='lessOpacity' src={PaulG} alt="paulgilbert"/>
                                     <p className='p20 color_gray3 td_under '>Paul Gilbert and Ibanez 30th Anniversary</p>
                                 </a>
                             </li>
                             <li className='list-item'>
                                 <a className='list-item-a' href="#" tabIndex='0'>
-                                    <img src={AndyT} alt="andytimmons"/>
+                                    <img className='lessOpacity' src={AndyT} alt="andytimmons"/>
                                     <p className='p20 color_gray3 td_under '>Andy Timmons and Ibanez 30th Anniversary</p>
                                 </a>
                             </li>
