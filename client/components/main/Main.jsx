@@ -8,6 +8,7 @@ import LittleImagesSection from './LittleImagesSection';
 import LatestNewsSection from './LatestNewsSection'; 
 import ProductsSection from './ProductsSection'; 
 import FeatureProductsSection from './FeatureProductsSection'; 
+import VideoSection from './VideoSection';
 
 export default class Main extends React.Component {
     render() {
@@ -18,6 +19,7 @@ export default class Main extends React.Component {
                 <LatestNewsSection/>
                 <ProductsSection/>
                 <FeatureProductsSection/>
+                <VideoSection/>
             </main>
         );
     }

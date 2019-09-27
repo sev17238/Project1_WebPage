@@ -81,3 +81,57 @@ input {
 
 
 //----------------
+
+
+
+//FOR RESPONSIVE
+[data-view*=sp] {
+  display:none
+}
+[data-view*=tablet] {
+  display:none
+}
+[data-view*=pc] {
+  display:block
+}
+[data-view*=pc-inlineblock] {
+  display:inline-block
+}
+
+
+@media screen and (max-width:64em) {
+  [data-view*=pc] {
+      display:none
+  }
+  [data-view*=pc-inlineblock] {
+      display:none
+  }
+  [data-view*=tablet] {
+      display:block
+  }
+  [data-view*=tablet-inlineblock] {
+      display:inline-block
+  }
+}
+
+@media screen and (max-width:47.938em) {
+  [data-view*=pc] {
+      display:none
+  }
+  [data-view*=pc-inlineblock] {
+      display:none
+  }
+  [data-view*=tablet] {
+      display:none
+  }
+  [data-view*=tablet-inlineblock] {
+      display:none
+  }
+  [data-view*=sp] {
+      display:block
+  }
+  [data-view*=sp-inlineblock] {
+      display:inline-block
+  }
+
+}

@@ -22,11 +22,15 @@
 }
 //---------------------------------
 
+.hoverDarker:hover{
+    background-color: #888;
+}
+
 .mod-head-block-big {
     display: block;
     padding-bottom: 10px;
-    font-size: 70px;
-    font-size: 6rem;
+    font-size: 75px;
+    font-size: 7rem;
 
 }
 
@@ -38,6 +42,9 @@
     
 }
 
+.width-u-50:hover{
+    background-color: #888;
+}
 .idx-feature-item01, .idx-feature-item02 {
     display: block;
     position: relative;

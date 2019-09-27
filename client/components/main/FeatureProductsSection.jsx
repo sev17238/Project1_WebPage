@@ -25,7 +25,7 @@ export default class FeatureProductsSection extends React.Component {
                 <div className = 'relative'>
                     <div className='fl_left width-u-50'>
                         <a className='idx-feature-item idx-feature-item01 mod-block-hidden' href="#">
-                            <img className='width-u-100' src={SR2405W} alt="sr2405w"/>
+                            <img className='width-u-100 hoverDarker' src={SR2405W} alt="sr2405w"/>
                             <p className='mod-head-block fw_bold'> 
                                 <span className='mod-head-block-content'>
                                     <span className='mod-head-block-lighter'>
@@ -39,7 +39,7 @@ export default class FeatureProductsSection extends React.Component {
                     </div>
                     <div className='fl_left width-u-50 '>
                         <a className='idx-feature-item idx-feature-item01 mod-block-hidden' href="#">
-                            <img className='width-u-100' src={AZ2402} alt="sr2405w"/>
+                            <img className='width-u-100 hoverDarker' src={AZ2402} alt="sr2405w"/>
                             <p className='mod-head-block fw_bold'> 
                                 <span className='mod-head-block-content'>
                                     <span className='mod-head-block-lighter'>
