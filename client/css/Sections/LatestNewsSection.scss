@@ -15,7 +15,7 @@
 }
 .mod-auto {
     max-width: 86%;
-    padding: 0;
+    //padding-bottom: 3em;
 }
 
 .mod-head {
@@ -98,15 +98,20 @@
     display: block;
     width: 100%;
     outline: none;
+    //padding-bottom: 1000px;
 }
+.mod-a p {
+    //padding-top: 2em;
+    padding-bottom: 2em;
+}
+
 .mod-more-text {
     font-family: Open Sans,sans-serif;
     font-size: 16px;
     font-size: 1.6rem;
     font-weight: 700;
     color: #888;
-    padding-top: 2em;
-    padding-bottom: 2em;
+    
     text-decoration: none;
 }
 

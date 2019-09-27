@@ -1,0 +1,118 @@
+
+//h3 -----------------------------
+.idx-feature-head {
+    top: 50px;
+    //-ms-transform: translateY(0);
+    transform: translateY(0);
+    bottom: 550px;
+    z-index: 3;
+}
+.mod-head-block {
+    display: inline-block;
+    position: absolute;
+    top: 20%;
+    left: 35px;
+    //-ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    line-height: 1.2;
+    font-family: Oswald,sans-serif;
+    font-size: 36px;
+    font-size: 3.6rem;
+    color: #fff;
+}
+//---------------------------------
+
+.mod-head-block-big {
+    display: block;
+    padding-bottom: 10px;
+    font-size: 70px;
+    font-size: 6rem;
+
+}
+
+.fl_left {
+    float: left;
+}
+.width-u-50 {
+    width: 50%;
+    
+}
+
+.idx-feature-item01, .idx-feature-item02 {
+    display: block;
+    position: relative;
+}
+.mod-block-hidden {
+    position: relative;
+    max-height: 900px;
+    overflow: hidden;
+}
+
+.idx-feature-item01 .mod-head-block {
+    top: auto;
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    bottom: 150px;
+}
+
+.fw_bold {
+    font-weight: 700;
+}
+/*
+.mod-head-block-content {
+    position: relative;
+    top: -50%
+}*/
+.mod-head-block-lighter {
+    font-weight: lighter;
+}
+
+//View more futures--------------------------
+
+.mod-more a {
+    padding: 45px 0 0;
+}
+.mod-a2 {
+    display: block;
+    width: 100%;
+    outline: none;
+    padding:0;
+    top: 100px;
+}
+.mod-more p {
+    top:500px;
+}
+.mod-more-text {
+    font-family: Open Sans,sans-serif;
+    font-size: 16px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #888;
+    margin: 0%;
+    padding: 0;
+    //bottom: 0;
+}
+
+.viewMoreFeatures {
+    position: relative;
+    top: -20px;
+    z-index: -999;
+    text-align: center;
+}
+.viewMoreFeatures2 {
+    position: absolute;
+    top: 77%;
+    //left: 400px;
+    z-index: 100;
+    text-align: center;
+    border-top: 1px solid #555;
+    width: 100%;
+    padding-top: 3em;
+}
+
+.relative{
+    position: relative;
+    //border-top: 1px solid #555;
+    //top:10em;
+}
+//-----------------------------------------

@@ -7,6 +7,7 @@ import SlideIntroSection from './SlideIntroSection';
 import LittleImagesSection from './LittleImagesSection';
 import LatestNewsSection from './LatestNewsSection'; 
 import ProductsSection from './ProductsSection'; 
+import FeatureProductsSection from './FeatureProductsSection'; 
 
 export default class Main extends React.Component {
     render() {
@@ -16,7 +17,7 @@ export default class Main extends React.Component {
                 <LittleImagesSection/>
                 <LatestNewsSection/>
                 <ProductsSection/>
-
+                <FeatureProductsSection/>
             </main>
         );
     }
