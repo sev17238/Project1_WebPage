@@ -29,10 +29,10 @@ export default class SlideIntroSection extends React.Component {
                                 <div className='idx-main-item'>
                                     <a href="#">
                                         <span data-view='pc tablet'>
-                                            <img src={SR500} alt="sr500" className='width-u-10'/>
+                                            <img src={SR500} alt="sr500" className='width-u-100'/>
                                         </span>
                                         <span data-view='sp'>
-                                            <img src={SR500_} alt="sr500_" className='width-u-10'/>
+                                            <img src={SR500_} alt="sr500_" className='width-u-100'/>
                                         </span>
                                     </a>
                                 </div>

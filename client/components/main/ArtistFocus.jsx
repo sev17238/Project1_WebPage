@@ -21,7 +21,7 @@ export default class ArtistFocus extends React.Component {
                             
                             <h3 className="heading-h3" >
                                 <span className="heading-big">ARTIST FOCUS</span>
-                                <span className="videocontent">
+                                <span className="videocontentA">
                                     Felipe Andreoli (Angra)
                                     <span className="thingybelow"></span>
                                 </span>
