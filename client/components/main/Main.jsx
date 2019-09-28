@@ -11,6 +11,7 @@ import FeatureProductsSection from './FeatureProductsSection';
 import VideoSection from './VideoSection';
 import ArtistFocus from './ArtistFocus';
 import SupportSection from './SupportSection';
+import SocialNetSection from './SocialNetSection';
 
 export default class Main extends React.Component {
     render() {
@@ -24,6 +25,7 @@ export default class Main extends React.Component {
                 <VideoSection/>
                 <ArtistFocus/>
                 <SupportSection/>
+                <SocialNetSection/>
             </main>
         );
     }
