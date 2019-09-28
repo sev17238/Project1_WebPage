@@ -29,7 +29,7 @@ This project features the following tools:
 - ⚛ **React** — 16.9.0
 - 🛠 **Babel** — ES6 syntax, React/Recommended config
 - 🚀 **Webpack**  — 4.40.2 - Work in a modular approach
-- 💅 **CSS** — Styled Components
+- 💅 **SASS** — Styled Components
 - 💖 **Lint** — ESlint
 - :camera: **Image loaders** — 6.0.0 - Standardize your images 
 
