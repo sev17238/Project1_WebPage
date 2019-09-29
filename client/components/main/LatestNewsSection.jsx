@@ -15,7 +15,7 @@ const ImgBottomsp = require('../../images/LatestNews/news_bg_sp.jpg');
 export default class LatestNewsSection extends React.Component {
     render() {
         return (
-            <section className='mod-bgBlock color-black'>
+            <section ref={section2 => this.section2 = section2} className='mod-bgBlock color-black'>
                 <div className='mod-auto mod-bgBlock-content'>
                     <h2 className='mod-head color_white'>LATEST NEWS</h2>
                     <div className='mod-spacer'>

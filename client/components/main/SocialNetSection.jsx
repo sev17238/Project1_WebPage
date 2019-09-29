@@ -110,7 +110,7 @@ export default class SocialNetSection extends React.Component {
                                     <div className='container-scrolling-content'>
                                         <div className='scrolling-content'>
                                             <div className='img-container_'>
-                                                <img src={pinkguitar} alt="pinkGuitar" className='width-u-100'/>
+                                                <img src={pinkguitar} alt="pinkGuitar" className='width-u-100 pointer'/>
                                                 <div className='img-comments'>
                                                     <img className='logo-ibanezL' src={ibanezLlogo} alt='ibanezlLogo2'/>
                                                     <a className='comment-in-title' title="Ibanez Guitars">
@@ -143,7 +143,7 @@ export default class SocialNetSection extends React.Component {
                                                 </div>
                                             </div>
                                             <div className='img-container_'>
-                                                <img src={screamerP} alt="pedal" className='width-u-100'/>
+                                                <img src={screamerP} alt="pedal" className='width-u-100 pointer'/>
                                                 <div className='img-comments'>
                                                     <img className='logo-ibanezL' src={ibanezLlogo} alt='ibanezlLogo2'/>
                                                     <a className='comment-in-title' title="Ibanez Guitars">
@@ -178,7 +178,7 @@ export default class SocialNetSection extends React.Component {
                                                 </div>
                                             </div>
                                             <div className='img-container_'>
-                                                <img src={browncoustic} alt="browna" className='width-u-100'/>
+                                                <img src={browncoustic} alt="browna" className='width-u-100 pointer'/>
                                                 <div className='img-comments'>
                                                     <img className='logo-ibanezL' src={ibanezLlogo} alt='ibanezlLogo2'/>
                                                     <a className='comment-in-title' title="Ibanez Guitars">
