@@ -139,18 +139,25 @@ a {
 //--------------------------------------------
 
 //Scroll menu products ----------------------+
-.menu-item {
-    padding: 0 40px;
-    margin: 5px 10px;
+.scroll-item {
     user-select: none;
-    cursor: pointer;
     border: none;
+    overflow: hidden;
+    display:block;
 }
-.menu-item-wrapper.active {
-    border: 1px blue solid;
+
+.scroll-item-image{
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    cursor: pointer;
+    align-self: center;
 }
-.menu-item.active {
-    border: 1px green solid;
+.scroll-item-image:hover{
+    opacity: .65
+}
+
+.scroll-item-image h3{
+    text-align: center;
 }
 
 .scroll-menu-arrow {
