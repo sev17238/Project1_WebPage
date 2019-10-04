@@ -7,7 +7,7 @@ import '../../css/HeaderNav';
 export default class HeaderNav extends React.Component {
     render() {
         return (            
-            <ul ref={headernav => this.headernav = headernav} className='header-nav opacity is-active'>
+            <ul id='headernav' className='header-nav'>
                 <li className='header-nav-in'>
                     <a className='anchorHover' href="#">ELECTRIC GUITARS</a>
                 </li>

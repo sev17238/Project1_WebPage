@@ -2,7 +2,7 @@
   "name": "Project1_WebPage",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "webpack.index.js",
   "scripts": {
     "start": "webpack-dev-server",
     "lint": "./node_modules/.bin/eslint src",

@@ -50,7 +50,7 @@
     "rules": {
         "indent": ["error", 4],
         "quotes": [ "error", "single" ],
-        "semi": [ "error", "always"]
+        "semi": [ "error", "always"],
         //"space-in-parens": ["error", "never"]
-    }    
+    }
   }

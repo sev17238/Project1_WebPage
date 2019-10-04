@@ -15,7 +15,7 @@ export default class Header extends React.Component {
     render() {
         return (
             <header className='header inc_na_header'>
-                <div ref={headercontent => this.headercontent = headercontent} className='header-content'>
+                <div id='headercontent' className='header-content'>
                     <div className='header-content-left'>
                         <HeaderContentLeft/>
                     </div>

@@ -2,12 +2,16 @@
     ./client/components/ProductsSection.jsx
 */
 import React from 'react';
+
 import '../../css/Sections/ProductsSection';
 import '../../css/global';
 
 import SearchProductsSection from './SearchProductSection'; 
+
 export default class ProductsSection extends React.Component {
+
     render() {
+
         return (
             <div>
                 <section className='mod-block idx-product'>

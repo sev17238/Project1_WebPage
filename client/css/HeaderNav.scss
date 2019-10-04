@@ -27,8 +27,9 @@
     text-decoration: none; //remove underline from hyperlink
 }
 
-.header-nav .is-active {
-    display: block;
+.is-not-active {
+    //display: block;
+    display: none
 }
 
 ul, ol{
